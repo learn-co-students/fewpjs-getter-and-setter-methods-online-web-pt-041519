@@ -4,7 +4,6 @@ class Circle {
     }
 
     set diameter(diameter) {
-        // this.diameter = diameter;
         if (diameter > 0) {
             this.radius = diameter / 2
         } else {
@@ -13,7 +12,6 @@ class Circle {
     }
 
     set circumference(circumference) {
-        // this.circumference = circumference;
         if (circumference > 0) {
             this.radius = circumference / Math.PI / 2
         } else {
@@ -22,7 +20,6 @@ class Circle {
     }
 
     set area(area) {
-        // this.area = area;
         if (area > 0) {
             this.radius = area / 2
         } else {
